@@ -26,3 +26,13 @@ $color-grey-dark-1: #757575;
 $color-grey-dark-2: #616161;
 $color-grey-dark-3: #424242;
 $color-grey-dark-4: #212121;
+
+// SHADOW DEPTH
+$shadow-depth-1-small: 0 .5rem 1rem rgba($color-black, .2);
+$shadow-depth-1-big: 0 1rem 2rem rgba($color-black, .2);
+$shadow-depth-2-small: 0 .5rem 1rem rgba($color-black, .4);
+$shadow-depth-2-big: 0 1rem 2rem rgba($color-black, .4);
+$shadow-depth-3-small: 0 1.5rem 2.5rem rgba($color-black, .2);
+$shadow-depth-3-big: 0 1.5rem 2.5rem rgba($color-black, .2);
+$shadow-depth-4-small: 0 1.5rem 2.5rem rgba($color-black, .4);
+$shadow-depth-4-big: 0 1.5rem 2.5rem rgba($color-black, .4);
