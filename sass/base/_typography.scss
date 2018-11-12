@@ -23,3 +23,12 @@ body {
   text-transform: uppercase;
   animation: moveInRight .9s ease-out;
 }
+
+.heading-secondary {
+  color: transparent;
+  font-size: 4rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
