@@ -2,13 +2,10 @@
   width: $grid-width;
   margin: 0 auto;
   margin-bottom: 20px;
-
-  background-color: #ccc;
   @include clearfix;
 }
 
 [class^="col"] {
-  background-color: orangered;
   float: left;
 
   &:not(:last-child) {
