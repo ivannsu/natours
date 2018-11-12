@@ -31,4 +31,11 @@ body {
   background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
   -webkit-background-clip: text;
   background-clip: text;
+  transition: all .3s;
+  letter-spacing: 2px;
+
+  &:hover {
+    text-shadow: $shadow-depth-1-small;
+    transform: skewX(13deg);
+  }
 }
