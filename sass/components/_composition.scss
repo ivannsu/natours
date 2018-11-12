@@ -4,6 +4,7 @@
   &__box {
     width: 30rem;
     position: absolute;
+    z-index: 1;
 
     &--1 {
       top: 1rem;
@@ -23,7 +24,19 @@
 
   &__img {
     max-width: 100%;
-    box-shadow: $shadow-depth-2-big;
+    box-shadow: $shadow-depth-2-small;
     border-radius: 3px;
+    transition: all .3s;
+  }
+
+  &__box:hover {
+    z-index: 2;
+  }
+
+  &__box:hover &__img {
+    box-shadow: $shadow-depth-2-big;
+    transform: scale(1.1);
+    outline: 1rem solid $color-primary;
+    padding: 1rem;
   }
 }
