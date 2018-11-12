@@ -30,4 +30,9 @@
     left: 50%;
     transform: translate(-50%, -70%);
   }
+
+  &__button {
+    animation: moveInBottom .3s ease-out .7s;
+    animation-fill-mode: backwards;
+  }
 }
